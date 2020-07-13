@@ -2,10 +2,12 @@
     "name": "praktikum",
     "version": "0.0.1",
     "description": "",
+    "homepage": "https://pronord.github.io/webpack/",
     "main": "index.js",
     "scripts": {
         "build": "rm -rf dist && webpack --mode production",
-        "dev": "webpack-dev-server --mode development"
+        "dev": "webpack-dev-server --mode development",
+        "deploy": "gh-pages -d dist"
     },
     "author": "slava",
     "license": "ISC",
